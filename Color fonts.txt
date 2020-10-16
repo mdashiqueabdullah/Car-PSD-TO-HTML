@@ -1,0 +1,14 @@
+Yellow #ffc61a
+
+Black  #1b1b1b
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&display=swap');
+
+
+font-family: 'Bebas Neue', cursive;
+font-family: 'Lato', sans-serif;
+
+
+
+
