@@ -2,6 +2,7 @@
 :root{
     --Yellow:#ffc61a;
     --Black:#1b1b1b;
+    --White: white;
     --babes-neue:'Bebas Neue', cursive;
     --lato:'Lato', sans-serif;
 }
@@ -9,10 +10,12 @@
 	padding: 0px;
 	margin: 0px;
 }
+
+/* Header Area Start*/
 .header{
     background-image: url('../img/hero.png');
     background-repeat: no-repeat;
-    padding: 40px 0px;
+    padding: 30px 0px;
 }
 .navbar-light .navbar-nav .nav-link{
     color: white;
@@ -42,3 +45,36 @@
 .navbar-toggler:focus{
 outline: none;
 }
+
+/* Header Area End*/
+/* Hero Area Start */
+.text-content{
+    text-align: center;
+    padding-top: 50px;
+}
+.text-content h1{
+    color: var(--White);
+    font-size: 72px;
+    font-family: var(--lato);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.text-content h2{
+    color: var(--Yellow);
+    font-size: 36px;
+    font-family: var(--lato);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.text-content p{
+    color: var(--White);
+    font-size: 20px;
+    font-family: var(--lato);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+.text-content img{
+    padding-top: 20px;
+}
+/* Hero Area End */

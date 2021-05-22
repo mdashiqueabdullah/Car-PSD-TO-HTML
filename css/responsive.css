@@ -8,7 +8,16 @@
 
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 792px){
-   
+   .text-content h1{
+   	font-size: 45px;
+   }
+   .text-content h2{
+   	font-size: 25px;
+   }
+   .text-content p{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
 }
 
 
