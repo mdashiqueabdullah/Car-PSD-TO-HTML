@@ -9,15 +9,35 @@
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 792px){
    .text-content h1{
-   	font-size: 45px;
+   		font-size: 45px;
    }
    .text-content h2{
-   	font-size: 25px;
+   		font-size: 25px;
    }
    .text-content p{
-    font-size: 15px;
-    letter-spacing: 2px;
-}
+    	font-size: 15px;
+    	letter-spacing: 2px;
+	}
+
+	.book_a_cab  h1{
+   		font-size: 35px;
+   		text-align: center;
+   }
+   .book_a_cab  h2{
+   		font-size: 25px;
+   		text-align: center;
+   }
+   .book_a_cab  p{
+    	font-size: 15px;
+    	letter-spacing: 2px;
+    	text-align: center;
+	}
+	.book_a_cab a{
+		margin: 10px auto;
+	}
+	.cab-from{
+		margin: 20px auto;
+	}
 }
 
 

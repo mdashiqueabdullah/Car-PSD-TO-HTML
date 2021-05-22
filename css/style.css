@@ -3,6 +3,7 @@
     --Yellow:#ffc61a;
     --Black:#1b1b1b;
     --White: white;
+    --Gray: #e4e4e4;
     --babes-neue:'Bebas Neue', cursive;
     --lato:'Lato', sans-serif;
 }
@@ -78,3 +79,88 @@ outline: none;
     padding-top: 20px;
 }
 /* Hero Area End */
+/* Book A Cab Area Start*/
+.book_a_cab{
+    background-color: var(--Yellow);
+    margin-top: -144px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.book_a_cab h2{
+    font-size: 35px;
+    font-family: var(--Lato);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.book_a_cab h1{
+    font-size: 50px;
+    font-family: var(--Lato);
+    font-weight: 600;
+}
+.book_a_cab h1 span{
+    display: block;
+}
+.book_a_cab h2{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: var(--Lato);
+}
+.book_a_cab p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: var(--Lato);
+    margin-top: 15px;
+}
+.book_a_cab a{
+    background-color: var(--Black);
+    color: var(--White);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    max-width: 120px;
+}
+.book_a_cab .cab-from{
+    background-color: var(--White);
+    max-width: 350px;
+}
+.book_a_cab .cab-from h1{
+    font-size: 35px;
+    font-family: var(--Lato);
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--White);
+    background-color: var(--Black);
+    padding: 10px;
+    text-align: center;
+}
+.book_a_cab .cab-from h1 span{
+    color: var(--Yellow);
+    display: inline-block;
+}
+.book_a_cab .cab-from form{
+    padding: 20px;
+}
+.book_a_cab .cab-from form input[type="text"]{
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid var(--Gray);
+    border-radius: 0px;
+}
+.book_a_cab .cab-from .form-control:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid var(--Yellow);
+}
+.book_a_cab .cab-from form .custom-select{
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid var(--Gray);
+    border-radius: 0px;
+}
+.book_a_cab .cab-from button{
+    width: 100%;
+    color: var(--White);
+    background-color: var(--Black);
+}
+/* Book A Cab Area End*/
