@@ -1,30 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&display=swap');
+:root{
+    --Yellow:#ffc61a;
+    --Black:#1b1b1b;
+    --babes-neue:'Bebas Neue', cursive;
+    --lato:'Lato', sans-serif;
+}
 *{
 	padding: 0px;
 	margin: 0px;
 }
-body{
-	font-family: 'Lato', sans-serif;
-}
-.header_area{
-	background-image: url('../img/hero.png');
-	padding: 20px 0px;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(0,0,0,.9);
-    background: #ffc61a;
-    border-radius: 30px;
-    padding: 3px 20px;
+.header{
+    background-image: url('../img/hero.png');
+    background-repeat: no-repeat;
+    padding: 40px 0px;
 }
 .navbar-light .navbar-nav .nav-link{
-    padding: 3px 20px;
     color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
     font-size: 17px;
-    font-weight: 700;
+    font-family: var(--Lato);
+    font-weight: 600;
+    transition: .6s ease;
 }
-.navbar-toggler-icon{
-	background-color: #ffc61a;
-	border-radius: 6px;
+.navbar-light .navbar-nav .active , .navbar-light .navbar-nav .nav-link:hover{
+    color: var(--Black)!important;
+    background-color: var(--Yellow);
 }
+.navbar-light .navbar-nav .nav-item{
+    margin-right: 15px;
+}
+.navbar-light .navbar-nav .nav-item:last-child{
+    margin-right: 0px;
+}
+.navbar-toggler{
+    background-color: var(--Yellow)!important;
+    padding: 2px 5px!important;
+    border: none;
 
+}
+.navbar-toggler:focus{
+outline: none;
+}
