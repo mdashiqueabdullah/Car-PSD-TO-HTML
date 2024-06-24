@@ -8,7 +8,18 @@
 
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 792px){
-  
+    .header .content{
+        padding: 50px 0px;
+    }
+    .header .content h2{
+        font-size: 20px;
+    }
+    .header .content h1{
+        font-size: 40px;
+    }
+    .header .content p{
+        font-size: 20px;
+    }
 }
 
 

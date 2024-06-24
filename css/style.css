@@ -33,4 +33,25 @@ ul li:last-child a{
 ul li a#active , ul li a:hover{
     background-color: var(--Yellow);
 }
-/* Book A Cab Area End*/
+.header .content{
+    text-align: center;
+    padding: 100px 0px;
+}
+.header .content h2{
+    color: var(--Yellow);
+    font-size: 40px;
+    font-family: var(--lato);
+    font-weight: 700;
+}
+.header .content h1{
+    color: var(--White);
+    font-size: 70px;
+    font-family: var(--lato);
+    font-weight: 700;
+}
+.header .content p{
+    color: var(--White);
+    font-size: 25px;
+    font-family: var(--lato);
+    letter-spacing:8px;
+}
