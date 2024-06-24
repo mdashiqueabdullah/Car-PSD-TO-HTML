@@ -13,5 +13,24 @@
 }
 
 /* Header Area Start*/
-
+.header{
+    width: 100%;
+    height: auto;
+    padding: 25px 0px;
+    background-image: url("../img/hero.png");
+}
+ul li a{
+    font-size:14px;
+    color:white!important;
+    margin-right: 10px;
+    padding: 8px 20px!important;
+    font-family: var(--lato);
+    border-radius: 5px;
+}
+ul li:last-child a{
+    margin-right: 0px;;
+}
+ul li a#active , ul li a:hover{
+    background-color: var(--Yellow);
+}
 /* Book A Cab Area End*/
